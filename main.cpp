@@ -2,7 +2,6 @@
 #include <vector>
 #include <cmath>
 #include <string>
-#include <filesystem>
 
 #define _CRT_SECURE_NO_WARNINGS
 #define STB_IMAGE_WRITE_IMPLEMENTATION
@@ -89,7 +88,7 @@ int main() {
     // Generate zoom images
     for (int i = 0; i < 1000; ++i) {
         char filename[50];
-        sprintf_s(filename, "%s/image_%04d.jpg", output_folder.c_str(), i + 1);
+        sprintf(filename, "%s/image_%04d.jpg", output_folder.c_str(), i + 1);
 
         render(render_size, center, scale, max_iteration, filename);
 
