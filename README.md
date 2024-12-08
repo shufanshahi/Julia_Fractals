@@ -4,7 +4,7 @@ Running the `main.cpp` file will automatically generate 3,000 images depicting a
 
 - ![Fractal image](Output/Fractals.png)
 
-We can make video of the fractal animation by using an application named `ffmpeg`
+You can create a video of the fractal animation using an application called `ffmpeg`.
 
 
 
